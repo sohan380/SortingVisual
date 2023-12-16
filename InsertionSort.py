@@ -37,6 +37,9 @@ def InsertionSort(arr):
 
         bars[ex].set_color('orange')
 
+    for i, value in enumerate(arr):
+        plt.text(i, value, str(value), ha='center', va='bottom')
+    
     plt.show()
 
 arr = np.random.randint(0, 100, 15)

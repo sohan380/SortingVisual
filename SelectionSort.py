@@ -44,6 +44,8 @@ def SelectionSort(arr):
         bars[i].set_color('orange')
         plt.pause(spd)
 
+   for i, value in enumerate(arr):
+       plt.text(i, value, str(value), ha='center', va='bottom')
    plt.show()
         
 arr = np.random.randint(0, 100, 15)
