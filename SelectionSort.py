@@ -31,11 +31,11 @@ def SelectionSort(arr):
 
             else:
                 bars[j].set_color('#1f77b4')
-                # plt.pause(spd)
+                plt.pause(spd)
 
             if j==n-1:
                 bars[li].set_color('#1f77b4')
-                # plt.pause(spd)
+                plt.pause(spd)
         
         # Swap minimum
         arr[i], arr[li] = arr[li], arr[i]
